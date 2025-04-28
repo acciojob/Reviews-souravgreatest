@@ -10,3 +10,62 @@ button{
     justify-content: center;
     align-items: center;
 }
+
+.container {
+    text-align: center;
+  }
+  
+  .review {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  .author {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .job {
+    font-size: 1.2rem;
+    color: #888;
+  }
+  
+  .info {
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  
+  .person-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 20px;
+  }
+  
+  .button-container {
+    margin-top: 20px;
+  }
+  
+  button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .prev-btn, .next-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .random-btn {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
