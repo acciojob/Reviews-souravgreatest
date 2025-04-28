@@ -47,7 +47,7 @@ function Review() {
 
   return (
     <div className="review">
-      <h2 id={`author-id-${id}`} className="author">{name}</h2>
+      <h2 id={`author-${id}`} className="author">{name}</h2>
       <p className="job">{job}</p>
       <p className="info">{text}</p>
       <img className="person-img" src={image} alt={name} />
